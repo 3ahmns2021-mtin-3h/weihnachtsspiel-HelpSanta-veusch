@@ -1,24 +1,25 @@
 # weihnachtsspiel-HelpSanta-veusch
-Project description: The player has to rescue christmas by catching presents
+<h1>Project description:</h1>
+The player has to rescue christmas by catching presents
 
 
 <h1>Development platform:</h1>
 Windows 10, Unity 2020.1.5.1f, Visual Studio 2019
 
-Target platform:
+<h1>Target platform:</h1>
 WebGL 
 
-Visuals:
+<h1>Visuals:</h1>
 Screenshots (concept and experience), Video
 
-Third party material:
+<h1>Third party material:</h1>
 
 
-Project state:
+<h1>Project state:</h1>
 Progress: 20%
 
-Limitations:
+<h1>Limitations:</h1>
 
-Lessons Learned:
+<h1>Lessons Learned:</h1>
 
 Copyright by Verena Eusch
