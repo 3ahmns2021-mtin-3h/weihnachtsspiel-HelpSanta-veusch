@@ -21,5 +21,5 @@ Progress: 20%
 <h1>Limitations:</h1>
 
 <h1>Lessons Learned:</h1>
-
+How to set a timer
 Copyright by Verena Eusch
