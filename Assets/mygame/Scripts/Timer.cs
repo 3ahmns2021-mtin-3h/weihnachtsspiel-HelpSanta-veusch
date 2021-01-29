@@ -25,6 +25,7 @@ public class Timer : MonoBehaviour
         }
         else
         {
+            Time.timeScale = 0;
             Debug.Log("stop game");
         }
     }

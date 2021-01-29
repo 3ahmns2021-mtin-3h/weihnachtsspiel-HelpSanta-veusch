@@ -1,16 +1,35 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Player : MonoBehaviour
 {
 
     int countCollision = 0;
+    public bool carringNut = false;
+    public bool carringGift = false;
+    public int points = 0;
+    public GameObject feedbackchildGift;
+    public TextMeshProUGUI scoreDisplay;
+
+
+  
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.name=="Enemy")
+        if(collision.name.Contains("Enemy"))
         {
-            countCollision--;
+            Destroy(collision.gameObject);
+            carringNut = true;
+            feedbackchildGift.SetActive(true);
+            points--;
+            points--;
+            scoreDisplay.text = points.ToString();
+            carringNut = false;
+            feedbackchildGift.SetActive(false);
+          
         }
 
         else if (collision.name == "Enemy2")
@@ -18,9 +37,15 @@ public class Player : MonoBehaviour
             countCollision--;
         }
 
-        else if (collision.name == "Geschenk")
+        else if (collision.name.Contains ("Geschenk") && !carringNut)
         {
-            countCollision++;
+            Destroy(collision.gameObject);
+            carringNut = true;
+            feedbackchildGift.SetActive(true);
+            points++;
+            scoreDisplay.text = points.ToString();
+            carringNut = false;
+            feedbackchildGift.SetActive(false);
         }
 
 
