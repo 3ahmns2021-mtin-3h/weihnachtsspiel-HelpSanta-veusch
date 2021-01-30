@@ -32,7 +32,7 @@ public class Spawngifts : MonoBehaviour
     {
         var clones = Instantiate(giftPrefab);
         clones.GetComponent<Transform>().SetParent(parentSpawngift.GetComponent<Transform>(), false);
-        clones.GetComponent<Transform>().localPosition = new Vector3(Random.Range(-400, 400), 0, 0);
+        clones.GetComponent<Transform>().localPosition = new Vector3(Random.Range(-380, 380), 0, 0);
         clones.GetComponent<Transform>().localRotation = Quaternion.identity;
         clones.GetComponent<Transform>().localScale = new Vector3(0.5f,0.5f,0.5f) ;
     }

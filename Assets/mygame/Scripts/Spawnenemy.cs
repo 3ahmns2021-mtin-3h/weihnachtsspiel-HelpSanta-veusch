@@ -9,7 +9,7 @@ public class Spawnenemy : MonoBehaviour
     public GameObject parentSpawngift;
 
     private float spawnRate = 3f;
-    private float nextSpawn = 4f;
+    private float nextSpawn = 6f;
 
 
 
