@@ -1,5 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
@@ -7,7 +8,8 @@ public class Timer : MonoBehaviour
     public TextMeshProUGUI timer;
 
     void Start()
-    {
+    {   
+        
         timeInSec = 60f;
     }
 

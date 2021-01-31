@@ -5,8 +5,8 @@ using UnityEngine;
 public class Spawnenemy : MonoBehaviour
 {
     
-    public GameObject giftPrefab;
-    public GameObject parentSpawngift;
+    public GameObject enemyPrefab;
+    public GameObject parentSpawnenemy;
 
     private float spawnRate = 3f;
     private float nextSpawn = 6f;
@@ -16,7 +16,7 @@ public class Spawnenemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SpawnTheGift();
+        SpawnTheEnemy();
     }
 
     // Update is called once per frame
@@ -25,15 +25,15 @@ public class Spawnenemy : MonoBehaviour
         if (Time.time > nextSpawn)
         {
             nextSpawn = Time.time + spawnRate;
-            SpawnTheGift();
+            SpawnTheEnemy();
         }
     }
 
-    private void SpawnTheGift()
+    private void SpawnTheEnemy()
     {
-        var clones = Instantiate(giftPrefab);
-        clones.GetComponent<Transform>().SetParent(parentSpawngift.GetComponent<Transform>(), false);
-        clones.GetComponent<Transform>().localPosition = new Vector3(Random.Range(-400, 400), 0, 0);
+        var clones = Instantiate(enemyPrefab);
+        clones.GetComponent<Transform>().SetParent(parentSpawnenemy.GetComponent<Transform>(), false);
+        clones.GetComponent<Transform>().localPosition = new Vector3(Random.Range(-240, 240), 0, 0);
         clones.GetComponent<Transform>().localRotation = Quaternion.identity;
         clones.GetComponent<Transform>().localScale = new Vector3(0.5f, 0.5f, 0.5f);
     }

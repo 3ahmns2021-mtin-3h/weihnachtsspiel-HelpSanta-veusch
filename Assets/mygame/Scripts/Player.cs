@@ -6,7 +6,6 @@ using TMPro;
 public class Player : MonoBehaviour
 {
 
-    int countCollision = 0;
     public bool carringNut = false;
     public bool carringGift = false;
     public int points = 0;
@@ -21,6 +20,7 @@ public class Player : MonoBehaviour
     {
         if(collision.name.Contains("Enemy"))
         {
+            SoundManagerScript.PlaySound("playerHitEnemy");
             Destroy(collision.gameObject);
             carringNut = true;
             feedbackchildGift.SetActive(true);
@@ -32,13 +32,11 @@ public class Player : MonoBehaviour
           
         }
 
-        else if (collision.name == "Enemy2")
-        {
-            countCollision--;
-        }
-
+      
         else if (collision.name.Contains ("Geschenk") && !carringNut)
         {
+            SoundManagerScript.PlaySound("playerHitPresent");
+
             Destroy(collision.gameObject);
             carringNut = true;
             feedbackchildGift.SetActive(true);

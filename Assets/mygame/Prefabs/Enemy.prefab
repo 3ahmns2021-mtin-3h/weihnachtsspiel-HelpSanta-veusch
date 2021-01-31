@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6902141229864570098}
   - component: {fileID: 6902141229864570093}
   - component: {fileID: 6902141229864570092}
-  - component: {fileID: 6902141229864570095}
   - component: {fileID: 6902141229864570099}
   m_Layer: 5
   m_Name: Enemy
@@ -61,14 +60,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: dc8646e58f8a69c44bbb70bfef55ddf1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -104,22 +103,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 100.42786, y: 99.34973}
   m_EdgeRadius: 0
---- !u!114 &6902141229864570095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6902141229864570089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ff2cb0f26b08e642877bf93339baa76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 2
-  movement: 4
-  enemyPrefab: {fileID: 0}
-  parentSpawnEnemy: {fileID: 0}
 --- !u!50 &6902141229864570099
 Rigidbody2D:
   serializedVersion: 4
