@@ -23,7 +23,7 @@ Progress: MVP, approximately 60%
 <h1>Lessons Learned:</h1>
 How to set a timer<br>
 How to implement Videos in Unity, delete them in time and freeze the game meanwhile<br>
-How to implement Sound Effects on triggers
+How to implement Sound Effects on triggers<br>
 How to spawn objects
 
 Copyright by Verena Eusch
