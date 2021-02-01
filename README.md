@@ -21,8 +21,8 @@ Progress: MVP, approximately 60%
 <h1>Limitations:</h1>
 
 <h1>Lessons Learned:</h1>
-How to set a timer
-How to implement Videos in Unity, delete them in time and freeze the game meanwhile
+How to set a timer<br>
+How to implement Videos in Unity, delete them in time and freeze the game meanwhile<br>
 How to implement Sound Effects on triggers
 How to spawn objects
 
