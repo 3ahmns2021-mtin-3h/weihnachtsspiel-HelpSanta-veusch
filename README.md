@@ -15,6 +15,10 @@ Self drawn and produced animation
 <h1>Third party material:</h1>
 Backgroundmusic, Sound effects, self drawn illustrations and background
 
+<div>
+  <img src="./Screenshots/Hintergrund.jpg" width="250">
+  </div>
+
 <h1>Project state:</h1>
 Progress: MVP, approximately 60%
 
