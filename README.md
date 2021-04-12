@@ -20,7 +20,9 @@ Backgroundmusic, Sound effects, self drawn illustrations and background
   </div>
 
 <h1>Project state:</h1>
-Progress: MVP, approximately 60%
+Progress: MVP, approximately 60% <br>
+
+<h1>MVP</h1>
 • Aufsetzen des 2D Projekts screen-independent(960x600) mit git/GitHub <br>
 • Player movement Horizontal<br>
 • Timer 1 Minute (mechanic & display)<br>
