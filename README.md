@@ -21,18 +21,18 @@ Backgroundmusic, Sound effects, self drawn illustrations and background
 
 <h1>Project state:</h1>
 Progress: MVP, approximately 60%
-• Aufsetzen des 2D Projekts screen-independent(960x600) mit git/GitHub
-• Player movement Horizontal
-• Timer 1 Minute (mechanic & display)
-• Collectibles & Enemies spawnen & movement
-• Score mechanic: Collectibles, Player, EnemiesCollisions & Trigger events
-• Score display
-• Spielbares funktionierendes Spielverhalten
+• Aufsetzen des 2D Projekts screen-independent(960x600) mit git/GitHub <br>
+• Player movement Horizontal<br>
+• Timer 1 Minute (mechanic & display)<br>
+• Collectibles & Enemies spawnen & movement<br>
+• Score mechanic: Collectibles, Player, EnemiesCollisions & Trigger events<br>
+• Score display<br>
+• Spielbares funktionierendes Spielverhalten<br>
 
-Nice To Have:
-• Schöne Grafiken
-• zusätzlicheEffekte
-• eine Anfangsgrafik/kurzanimation/Film die denSturz des Schlittens und die Einbindung desPlayers veranschaulicht(comic-like)
+Nice To Have:<br>
+• Schöne Grafiken<br>
+• zusätzlicheEffekte<br>
+• eine Anfangsgrafik/kurzanimation/Film die denSturz des Schlittens und die Einbindung desPlayers veranschaulicht(comic-like)<br>
 
 <h1>Limitations:</h1>
 
